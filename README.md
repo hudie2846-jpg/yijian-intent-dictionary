@@ -2,7 +2,7 @@
 
 **四语言意图表达词典，逐项标注实测 token 数。v0.4**
 
-把意思说清楚，再比较表达成本。含中文、韩文、日文和英文词典，各133个词条及示例、30个语义评测种子。词条与章节不编号，保留页码索引；中文版不设英文对照。
+把意思说清楚，再比较表达成本。含中文、韩文、日文和英文词典，各133个词条及示例、30个语义评测种子。
 
 Intent-expression dictionaries in Chinese, Korean, Japanese, and English with measured token counts. Each contains 133 entries and examples plus 30 semantic test seeds. No visible entry or chapter IDs; page numbers remain.
 
