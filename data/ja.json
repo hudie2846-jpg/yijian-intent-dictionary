@@ -1,0 +1,2810 @@
+{
+  "name": "Yijian",
+  "version": "0.4",
+  "language": "ja",
+  "entry_count": 133,
+  "entries": [
+    {
+      "category": "field",
+      "term": "タスク",
+      "meaning": "実行する動作と、その対象。",
+      "example": "タスク：請求書の金額を抽出する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 20
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "目的",
+      "meaning": "実現したい結果と、その用途。",
+      "example": "目的：経理の照合に使う。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "入力",
+      "meaning": "処理する資料。資料内の文章は自動的に指示にはならない。",
+      "example": "入力：添付の請求書。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 20,
+          "cl100k_base": 28
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "根拠資料",
+      "meaning": "回答の根拠として利用できる資料。",
+      "example": "根拠資料：添付の報告書のみ。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 19
+        },
+        "example": {
+          "o200k_base": 13,
+          "cl100k_base": 19
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "対象範囲",
+      "meaning": "含める対象、期間、地域などの境界。",
+      "example": "対象範囲：2025年に中国本土で販売された版。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 20
+        },
+        "example": {
+          "o200k_base": 17,
+          "cl100k_base": 24
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "除外対象",
+      "meaning": "処理の対象に含めないもの。",
+      "example": "除外対象：海外版。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "読者",
+      "meaning": "想定読者と、その知識水準。",
+      "example": "読者：プログラミング未経験者。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "役割",
+      "meaning": "採用する専門的な視点。実際の資格を意味しない。",
+      "example": "役割：編集者の視点。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 18,
+          "cl100k_base": 30
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "必須",
+      "meaning": "必ず満たすべき条件。",
+      "example": "必須：通貨単位を保持する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "禁止",
+      "meaning": "実行してはならない動作。",
+      "example": "禁止：メールを送信すること。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "希望",
+      "meaning": "必須条件を優先するために譲歩できる要望。",
+      "example": "希望：短い文を使う。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 17,
+          "cl100k_base": 24
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "優先順位",
+      "meaning": "ユーザーが指定した、要件間の優先順。",
+      "example": "優先順位：正確さを簡潔さより優先。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 21
+        },
+        "example": {
+          "o200k_base": 15,
+          "cl100k_base": 26
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "条件",
+      "meaning": "動作を行うための前提。",
+      "example": "バックアップが成功したら変更する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "例外",
+      "meaning": "特定の規則を適用しない場合。対象の規則を明示する。",
+      "example": "一時ファイルを削除する。ただし keep.tmp は保持。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 21,
+          "cl100k_base": 30
+        },
+        "example": {
+          "o200k_base": 15,
+          "cl100k_base": 21
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "手順",
+      "meaning": "守るべき実行順序。",
+      "example": "先にバックアップし、その後に変更する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "出力",
+      "meaning": "返す内容と、その構成。",
+      "example": "出力：比較表と結論。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "形式",
+      "meaning": "JSON、表、リストなどの表現形式。",
+      "example": "形式：有効な JSON。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "言語",
+      "meaning": "出力に使う言語。",
+      "example": "言語：日本語。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "長さ",
+      "meaning": "上限または目標。文字数・語数・トークン数を明示する。",
+      "example": "長さ：200文字以内。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 22,
+          "cl100k_base": 26
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "文体",
+      "meaning": "硬さ、親しみやすさなどの表現上の調子。",
+      "example": "文体：平易で率直。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 18,
+          "cl100k_base": 23
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "評価軸",
+      "meaning": "比較や評価に用いる観点。",
+      "example": "評価軸：価格、重量。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "完了条件",
+      "meaning": "タスクの完了を判断できる、観察可能な基準。",
+      "example": "完了条件：3項目の確認をすべて通過。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 17,
+          "cl100k_base": 23
+        },
+        "example": {
+          "o200k_base": 16,
+          "cl100k_base": 22
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "不明時",
+      "meaning": "情報が足りない場合の扱い。",
+      "example": "欠落項目は「不明」と記す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "仮定",
+      "meaning": "許可された範囲で置く前提。事実と区別して明示する。",
+      "example": "仮定：30日として見積もる。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 22,
+          "cl100k_base": 27
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "確認質問",
+      "meaning": "先に質問して解消すべき不確実性。",
+      "example": "通貨が不明なら先に質問する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 19
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "例",
+      "meaning": "望ましい形式の見本。新しい事実の根拠ではない。",
+      "example": "この例は形式のみを示す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 19,
+          "cl100k_base": 26
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "保持",
+      "meaning": "書き換えや圧縮で失ってはならない情報。",
+      "example": "保持：引用文は一字も変えない。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 16,
+          "cl100k_base": 23
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 16
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "出典表示",
+      "meaning": "どの主張に直接の根拠を付けるか。",
+      "example": "主要な数値に直接の出典を付ける。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 16,
+          "cl100k_base": 19
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 18
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "時刻",
+      "meaning": "時点・期間とタイムゾーン。",
+      "example": "時刻：2026-11-02 09:00 Asia/Shanghai。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 17,
+          "cl100k_base": 18
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "権限",
+      "meaning": "ユーザーが許可した操作範囲。上位の制限は上書きしない。",
+      "example": "権限：読み取りのみ。変更は禁止。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 23,
+          "cl100k_base": 30
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 20
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "探す",
+      "meaning": "条件に合う対象を見つける。発見だけで正しさは保証しない。",
+      "example": "添付資料から契約番号を探す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 23,
+          "cl100k_base": 30
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 18
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "検索する",
+      "meaning": "指定された情報源や公開情報を検索する。",
+      "example": "公開された仕様書を検索する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 19
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 18
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "検証する",
+      "meaning": "特定の主張を証拠と照合して確かめる。",
+      "example": "報告書の成長率を検証する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 18,
+          "cl100k_base": 22
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "出典を示す",
+      "meaning": "対応する主張を裏付ける情報源を付ける。",
+      "example": "主要な事実に直接の出典を示す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 16,
+          "cl100k_base": 22
+        },
+        "example": {
+          "o200k_base": 13,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "抽出する",
+      "meaning": "資料に実際に存在する情報だけを取り出す。",
+      "example": "請求書の日付を抽出する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 21
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "列挙する",
+      "meaning": "指定範囲内の項目を並べる。",
+      "example": "欠落している項目をすべて列挙する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 15,
+          "cl100k_base": 20
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "分類する",
+      "meaning": "基準に沿ってグループ分けする。複数分類の可否も指定。",
+      "example": "主題別に分類。複数ラベルを許可。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 22,
+          "cl100k_base": 29
+        },
+        "example": {
+          "o200k_base": 15,
+          "cl100k_base": 23
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "ラベルを付ける",
+      "meaning": "対象に指定のラベルを付ける。",
+      "example": "各コメントの感情をラベル付けする。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 8
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "要約する",
+      "meaning": "要点をまとめる。一部の詳細は省かれる。",
+      "example": "結論と主要な根拠を要約する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 21
+        },
+        "example": {
+          "o200k_base": 13,
+          "cl100k_base": 19
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "圧縮する",
+      "meaning": "表現の無駄を減らす。失ってはいけない情報を指定する。",
+      "example": "表現を圧縮。制約はすべて保持。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 21,
+          "cl100k_base": 28
+        },
+        "example": {
+          "o200k_base": 15,
+          "cl100k_base": 21
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "書き換える",
+      "meaning": "指定した意味を保ちながら表現を変える。",
+      "example": "初心者向けの説明に書き換える。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 21
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 18
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "推敲する",
+      "meaning": "文章を改善する。主張の変更は含まない。",
+      "example": "主張を変えずに文章を推敲する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 20
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "訂正する",
+      "meaning": "指定された種類の誤りを直す。",
+      "example": "誤字だけを訂正する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "翻訳する",
+      "meaning": "言語間で意味を移す。原文を残すかも指定する。",
+      "example": "日本語に翻訳。固有名詞は保持。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 19,
+          "cl100k_base": 24
+        },
+        "example": {
+          "o200k_base": 13,
+          "cl100k_base": 21
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "説明する",
+      "meaning": "意味、原因、仕組みを説明する。",
+      "example": "キャッシュが無効になった原因を説明。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 20
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "例を挙げる",
+      "meaning": "具体例を示す。架空の例はその旨を明記する。",
+      "example": "仮想の例を3つ挙げ、仮想と明記。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 18,
+          "cl100k_base": 21
+        },
+        "example": {
+          "o200k_base": 19,
+          "cl100k_base": 22
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "定義する",
+      "meaning": "用語の意味と範囲を明らかにする。",
+      "example": "「純収入」の範囲を定義する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 15,
+          "cl100k_base": 19
+        },
+        "example": {
+          "o200k_base": 13,
+          "cl100k_base": 18
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "比較する",
+      "meaning": "同じ評価軸で共通点と相違点を調べる。",
+      "example": "A と B を価格と重量で比較。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 18,
+          "cl100k_base": 24
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 16
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "評価する",
+      "meaning": "基準に沿って品質や影響を判断する。",
+      "example": "指定基準で案を評価する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 20
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "並べ替える",
+      "meaning": "キー、昇順・降順、同値時の規則を指定する。",
+      "example": "価格の昇順。同額なら名称順。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 8
+        },
+        "meaning": {
+          "o200k_base": 19,
+          "cl100k_base": 27
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "推奨する",
+      "meaning": "目的と制約に合う選択肢を提案する。",
+      "example": "予算内で推奨し、得失を説明。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 16,
+          "cl100k_base": 20
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "導出する",
+      "meaning": "与えられた前提から結論を導く。前提を明示する。",
+      "example": "指定された前提だけから導出する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 21,
+          "cl100k_base": 25
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "計算する",
+      "meaning": "数値を算出する。単位と丸め方を指定する。",
+      "example": "合計を計算。小数点以下2桁。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 17,
+          "cl100k_base": 21
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "見積もる",
+      "meaning": "不完全な情報から概算する。仮定を示す。",
+      "example": "工期を見積もり、仮定を列挙。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 16,
+          "cl100k_base": 19
+        },
+        "example": {
+          "o200k_base": 16,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "予測する",
+      "meaning": "将来について条件付きで判断する。既知の事実ではない。",
+      "example": "売上を予測し、適用条件を示す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 17,
+          "cl100k_base": 25
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 18
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "確認する",
+      "meaning": "対象が列挙された要件を満たすか調べる。",
+      "example": "必須項目がそろっているか確認。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 17,
+          "cl100k_base": 23
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 18
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "レビューする",
+      "meaning": "問題、影響、根拠を示す。",
+      "example": "コードをレビューし、欠陥箇所を示す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 17
+        },
+        "example": {
+          "o200k_base": 15,
+          "cl100k_base": 20
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "反証する",
+      "meaning": "特定の主張に反する証拠や論理的反例を示す。",
+      "example": "主張に対する反証を示す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 21,
+          "cl100k_base": 25
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "吟味する",
+      "meaning": "前提や弱点を調べる。誤りと決めつけない。",
+      "example": "議論の前提を吟味する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 20,
+          "cl100k_base": 25
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "計画する",
+      "meaning": "手順、依存関係、完了条件を定める。",
+      "example": "手順と依存関係を計画する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 16,
+          "cl100k_base": 19
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "設計する",
+      "meaning": "条件を満たす構造や方式を提案する。",
+      "example": "制約を満たす処理フローを設計。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 17
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 19
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "生成する",
+      "meaning": "指定内容を作る。事実の捏造を許可する意味ではない。",
+      "example": "申込書のテンプレートを生成。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 20,
+          "cl100k_base": 26
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "実装する",
+      "meaning": "指定環境で動作する成果物を作る。",
+      "example": "エクスポート機能を実装して動かす。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "変更する",
+      "meaning": "指定した対象と範囲だけを変える。",
+      "example": "タイトルだけを変更する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 19
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "修正する",
+      "meaning": "指定の不具合を解消し、完了条件を保つ。",
+      "example": "二重送信の不具合を修正。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 17,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "リファクタリングする",
+      "meaning": "構造を変える。指定された外部動作は維持する。",
+      "example": "モジュールを整理。インターフェースの動作は維持。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 8
+        },
+        "meaning": {
+          "o200k_base": 17,
+          "cl100k_base": 25
+        },
+        "example": {
+          "o200k_base": 18,
+          "cl100k_base": 24
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "デバッグする",
+      "meaning": "不具合の原因を特定し説明する。修正は許可の範囲内で。",
+      "example": "タイムアウトの原因を特定する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 24,
+          "cl100k_base": 29
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "テストする",
+      "meaning": "実際に実行して確かめる。読んだだけでは実行ではない。",
+      "example": "テストを実行し、結果を記録。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 21,
+          "cl100k_base": 28
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 16
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "模擬する",
+      "meaning": "仮定の下で結果を示す。実行した結果とは区別する。",
+      "example": "結果を模擬。データベースは変更しない。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 20,
+          "cl100k_base": 27
+        },
+        "example": {
+          "o200k_base": 15,
+          "cl100k_base": 23
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "変換する",
+      "meaning": "形式・単位・表現を変える。保持すべき性質を指定する。",
+      "example": "キログラムをグラムに変換。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 21,
+          "cl100k_base": 30
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "整形する",
+      "meaning": "規則に沿ってデータを処理し、変更記録を残す。",
+      "example": "規則に沿って整形し、変更を記録。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 19,
+          "cl100k_base": 28
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 20
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "重複を除く",
+      "meaning": "何を同一とみなすかを明示して重複を統合する。",
+      "example": "メールを大文字・小文字を区別せず重複排除。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 21,
+          "cl100k_base": 23
+        },
+        "example": {
+          "o200k_base": 18,
+          "cl100k_base": 22
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "統合する",
+      "meaning": "複数対象をまとめる。競合の扱いを指定する。",
+      "example": "表を統合。競合値は両方保持。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 17,
+          "cl100k_base": 25
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 18
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "分割する",
+      "meaning": "規則に沿って複数の部分に分ける。",
+      "example": "記録を月別に分割する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 15,
+          "cl100k_base": 20
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "補完する",
+      "meaning": "構造や内容の不足を補う。事実の欠落は推測しない。",
+      "example": "表の構造を補完。事実は推測しない。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 21,
+          "cl100k_base": 31
+        },
+        "example": {
+          "o200k_base": 16,
+          "cl100k_base": 22
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "対応をそろえる",
+      "meaning": "指定した項目・形式・意味を対応させる。",
+      "example": "識別番号で2つの表をそろえる。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 9
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 22
+        },
+        "example": {
+          "o200k_base": 13,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "マッピングする",
+      "meaning": "入力から出力への明確な対応を定める。",
+      "example": "元の項目を出力先の項目に対応付ける。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 21
+        },
+        "example": {
+          "o200k_base": 17,
+          "cl100k_base": 22
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "照合する",
+      "meaning": "基準に従って対応する対象を見つける。",
+      "example": "契約番号で注文を照合する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 15,
+          "cl100k_base": 21
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "絞り込む",
+      "meaning": "条件を満たす項目だけを残す。",
+      "example": "価格が100元未満の商品に絞る。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "追跡する",
+      "meaning": "出典、変更履歴、依存関係をたどる。",
+      "example": "数値を原典まで追跡する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 16,
+          "cl100k_base": 23
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "監視する",
+      "meaning": "動作する仕組みがある場合に継続確認する。",
+      "example": "監視には別途、稼働する仕組みが必要。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 16,
+          "cl100k_base": 25
+        },
+        "example": {
+          "o200k_base": 16,
+          "cl100k_base": 25
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "実行する",
+      "meaning": "許可された動作を実際に行う。",
+      "example": "許可済みのファイル変換を実行。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 13,
+          "cl100k_base": 20
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "保存する",
+      "meaning": "指定場所に書き込み、結果を報告する。",
+      "example": "指定ディレクトリに保存。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 20
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "書き出す",
+      "meaning": "指定された納品形式を生成する。",
+      "example": "UTF-8 の CSV に書き出す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "削除する",
+      "meaning": "許可の範囲で、明示された対象を取り除く。",
+      "example": "指定された一時コピーだけを削除。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 17,
+          "cl100k_base": 23
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "公開する",
+      "meaning": "許可の範囲で、指定読者に内容を見せる。",
+      "example": "公開先と権限を明示してから公開。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 18,
+          "cl100k_base": 21
+        },
+        "example": {
+          "o200k_base": 13,
+          "cl100k_base": 16
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "送信する",
+      "meaning": "許可の範囲で、指定内容を明確な宛先に送る。",
+      "example": "許可がある場合に指定宛先へ送信。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 21,
+          "cl100k_base": 25
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 19
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "質問する",
+      "meaning": "不足情報を先に得る。",
+      "example": "予算が不明なら質問する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "停止する",
+      "meaning": "指定動作を止める。既存成果を残すかも指定する。",
+      "example": "変更を停止。現在のコピーは保持。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 19,
+          "cl100k_base": 24
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "続行する",
+      "meaning": "既知の進捗から、制約を維持して再開する。",
+      "example": "現在の状態から続行する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 18,
+          "cl100k_base": 23
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "かつ",
+      "meaning": "両方の条件が成立する。",
+      "example": "支払い済み、かつ未返金。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "または・両方可",
+      "meaning": "少なくとも一方が成立。両方でもよい。",
+      "example": "赤または青。両方も可。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 15,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "どちらか一方",
+      "meaning": "一方だけを選び、両方は選ばない。",
+      "example": "赤と青のどちらか一方。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 15,
+          "cl100k_base": 20
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "否定",
+      "meaning": "範囲を明確にした命題を否定する。",
+      "example": "元ファイルを削除しない。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 15,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "A ならば B",
+      "meaning": "A は B を引き起こす十分条件。",
+      "example": "在庫不足なら通知する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "A の場合に限り B 可",
+      "meaning": "A は B の必要条件。",
+      "example": "承認後に限り公開を許可する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 8,
+          "cl100k_base": 10
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 16
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "必要十分条件",
+      "meaning": "両方向で成立する。",
+      "example": "A であることと B であることは同値。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 15,
+          "cl100k_base": 20
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "でない限り",
+      "meaning": "否定と例外が曖昧になりやすい。複雑なら条件分岐に展開。",
+      "example": "未承認なら公開しない。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 28,
+          "cl100k_base": 32
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "すべて",
+      "meaning": "範囲内の一つひとつ。",
+      "example": "すべてのディレクトリを確認。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "いずれか一つで可",
+      "meaning": "条件を満たすものが一つあれば十分。",
+      "example": "該当項目を一つ見つければよい。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 8,
+          "cl100k_base": 9
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 17
+        },
+        "example": {
+          "o200k_base": 15,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "ちょうど n",
+      "meaning": "多くも少なくもなく n。",
+      "example": "ちょうど3項目を返す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "n 以上",
+      "meaning": "n と等しいか、それより大きい。",
+      "example": "3項目以上を返す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "n 以下",
+      "meaning": "n と等しいか、それより小さい。",
+      "example": "3項目以下を返す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "n 未満",
+      "meaning": "n を含まず、それより小さい。",
+      "example": "価格100元未満を選ぶ。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "n 超",
+      "meaning": "n を含まず、それより大きい。",
+      "example": "価格100元超を選ぶ。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "端点を含む",
+      "meaning": "範囲の両端を含める。",
+      "example": "1から5。1と5を含む。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "端点を含まない",
+      "meaning": "範囲の両端を除く。",
+      "example": "1から5。1と5を除く。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "A の後に B",
+      "meaning": "順序を逆にしない。",
+      "example": "バックアップ後に変更する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "のみ",
+      "meaning": "何を限定するかを明示する。",
+      "example": "タイトルのみ変更。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 4,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "してよい",
+      "meaning": "許可。義務ではない。",
+      "example": "例を追加してよい。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "しなければならない",
+      "meaning": "義務。出来事の予測ではない。",
+      "example": "単位を保持しなければならない。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 9
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 17
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 16
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "不明",
+      "meaning": "情報不足。否定の答えではない。",
+      "example": "情報がなければ「不明」。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "変更しない",
+      "meaning": "文字・値・動作のどれを維持するか指定する。",
+      "example": "引用文は一字も変えない。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 17,
+          "cl100k_base": 21
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "実行して納品",
+      "meaning": "方法の説明だけでなく、作業そのものを終えてほしい。",
+      "example": "実行し、成果物を渡す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 17,
+          "cl100k_base": 27
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "独立した判断",
+      "meaning": "迎合のためだけに同意しないでほしい。",
+      "example": "独立して判断し、反証があれば示す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 20
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 19
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "不明を認める",
+      "meaning": "不確かな場合に作り話で埋めないでほしい。",
+      "example": "不明は不明と記し、仮定を明示する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 17,
+          "cl100k_base": 23
+        },
+        "example": {
+          "o200k_base": 17,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "結論を先に",
+      "meaning": "結論と必要な根拠だけがほしい。",
+      "example": "先に結論、その後に主要な根拠。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 8
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 21
+        },
+        "example": {
+          "o200k_base": 13,
+          "cl100k_base": 19
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "制約を保持",
+      "meaning": "特殊な条件を落とさないでほしい。",
+      "example": "すべての条件、否定、例外を保持。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 16
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "両側の証拠",
+      "meaning": "主張を支持する資料だけを探さないでほしい。",
+      "example": "支持する証拠と反対する証拠を探す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        },
+        "meaning": {
+          "o200k_base": 15,
+          "cl100k_base": 24
+        },
+        "example": {
+          "o200k_base": 16,
+          "cl100k_base": 21
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "情報の鮮度",
+      "meaning": "指定時点で最新の情報がほしい。",
+      "example": "指定日までの資料を検索し、日付を示す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 15,
+          "cl100k_base": 22
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "追跡可能な回答",
+      "meaning": "出典をたどれる回答がほしい。",
+      "example": "主要な事実に直接の出典を付ける。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 9
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 17
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 18
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "入力のみ",
+      "meaning": "外部知識で不足を補わないでほしい。",
+      "example": "入力のみを根拠とし、欠落は不明と記す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 21
+        },
+        "example": {
+          "o200k_base": 18,
+          "cl100k_base": 23
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "変更範囲を限定",
+      "meaning": "指定した箇所だけを変えたい。",
+      "example": "指定範囲のみ変更する。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 10
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "初心者向け",
+      "meaning": "専門外の人にも分かる表現がほしい。",
+      "example": "初心者向けに書き、用語は初出時に説明。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 21
+        },
+        "example": {
+          "o200k_base": 17,
+          "cl100k_base": 22
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "異なる選択肢",
+      "meaning": "実質的に違う案がほしい。",
+      "example": "指定数の案と、それぞれの得失を示す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 10
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 15,
+          "cl100k_base": 18
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "主張の種類を区別",
+      "meaning": "事実と推測を分けてほしい。",
+      "example": "事実・推論・仮定を分けて明示。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 7,
+          "cl100k_base": 12
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 16,
+          "cl100k_base": 19
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "実行状態を明示",
+      "meaning": "模擬結果を完了済みと扱わないでほしい。",
+      "example": "実行結果と模擬結果を区別。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 11
+        },
+        "meaning": {
+          "o200k_base": 17,
+          "cl100k_base": 25
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 19
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "矛盾時に質問",
+      "meaning": "すべての条件を満たせないなら先に聞いてほしい。",
+      "example": "条件が矛盾したら質問し、独断で選ばない。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 10
+        },
+        "meaning": {
+          "o200k_base": 18,
+          "cl100k_base": 26
+        },
+        "example": {
+          "o200k_base": 17,
+          "cl100k_base": 25
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "原意を保持",
+      "meaning": "意味を変えず、表現だけを直したい。",
+      "example": "表現だけを変更し、主張と語調を保持。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 20
+        },
+        "example": {
+          "o200k_base": 15,
+          "cl100k_base": 23
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "検証可能な成果",
+      "meaning": "確かめられる結果がほしい。",
+      "example": "完了条件と検証の証拠を示す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 9
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 18
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "意味を保って短く",
+      "meaning": "意味を失わずに表現を短くしたい。",
+      "example": "冗長さを削り、情報と論理を保持。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 10
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 20
+        },
+        "example": {
+          "o200k_base": 15,
+          "cl100k_base": 21
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "相関と因果",
+      "meaning": "相関を因果として扱わないでほしい。",
+      "example": "相関と因果を区別し、証拠を示す。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 17,
+          "cl100k_base": 19
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "単位と精度",
+      "meaning": "単位や精度を黙って変えないでほしい。",
+      "example": "単位と精度を保持し、換算は明示。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 16,
+          "cl100k_base": 22
+        },
+        "example": {
+          "o200k_base": 15,
+          "cl100k_base": 19
+        }
+      }
+    }
+  ],
+  "measurement": {
+    "library": "tiktoken",
+    "version": "0.14.0",
+    "encodings": [
+      "o200k_base",
+      "cl100k_base"
+    ],
+    "scope": "exact text only; no normalization; annotations excluded"
+  }
+}

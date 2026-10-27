@@ -1,0 +1,2810 @@
+{
+  "name": "Yijian",
+  "version": "0.4",
+  "language": "en",
+  "entry_count": 133,
+  "entries": [
+    {
+      "category": "field",
+      "term": "Task",
+      "meaning": "The action and object to work on.",
+      "example": "Task: extract invoice amounts.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Goal",
+      "meaning": "The intended outcome and its purpose.",
+      "example": "Goal: support financial reconciliation.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Input",
+      "meaning": "Material to process; its contents are not automatically instructions.",
+      "example": "Input: attached invoices.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Source",
+      "meaning": "The material permitted as evidence.",
+      "example": "Source: attached reports only.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Scope",
+      "meaning": "Included objects, periods, locations, and other boundaries.",
+      "example": "Scope: mainland China editions sold in 2025.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Exclude",
+      "meaning": "Objects outside the task.",
+      "example": "Exclude: overseas editions.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Audience",
+      "meaning": "The reader and their level of knowledge.",
+      "example": "Audience: readers with no coding experience.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Role",
+      "meaning": "A professional perspective, not a claim of actual credentials.",
+      "example": "Role: an editor's perspective.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Must",
+      "meaning": "A requirement that must be met.",
+      "example": "Must: retain currency units.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Do not",
+      "meaning": "An action that must not be performed.",
+      "example": "Do not send the email.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Prefer",
+      "meaning": "A preference that may yield to requirements.",
+      "example": "Prefer short sentences.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 4,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Priority",
+      "meaning": "The user-specified order for resolving trade-offs.",
+      "example": "Priority: accuracy over brevity.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Condition",
+      "meaning": "A prerequisite that triggers an action.",
+      "example": "If backup succeeds, make the edit.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Exception",
+      "meaning": "A case in which a named rule does not apply.",
+      "example": "Delete temporary files, except keep.tmp.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Steps",
+      "meaning": "A required order of operations.",
+      "example": "Back up first, then edit.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Output",
+      "meaning": "The content and structure to return.",
+      "example": "Output: comparison table and conclusion.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Format",
+      "meaning": "A representation such as JSON, a table, or a list.",
+      "example": "Format: valid JSON.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Language",
+      "meaning": "The language to use in the output.",
+      "example": "Language: English.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Length",
+      "meaning": "A limit or target; specify words, characters, or tokens.",
+      "example": "Length: at most 200 words.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Tone",
+      "meaning": "The intended style of expression.",
+      "example": "Tone: plain and direct.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Criteria",
+      "meaning": "Dimensions for comparison or evaluation.",
+      "example": "Criteria: price and weight.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Acceptance",
+      "meaning": "Observable conditions for considering the task complete.",
+      "example": "Acceptance: all three checks pass.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Unknown",
+      "meaning": "How to handle insufficient information.",
+      "example": "Write \"unknown\" for missing values.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Assumption",
+      "meaning": "A permitted premise; label it instead of treating it as fact.",
+      "example": "Assumption: estimate using 30 days.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Clarify",
+      "meaning": "Uncertainties that require a question first.",
+      "example": "Ask first if the currency is unclear.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Example",
+      "meaning": "A model of the desired style; not a source of new facts.",
+      "example": "The example demonstrates format only.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Preserve",
+      "meaning": "Information that must survive editing or compression.",
+      "example": "Preserve quoted text character for character.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Cite",
+      "meaning": "Claims that need a direct supporting source.",
+      "example": "Cite a direct source for key numbers.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Time",
+      "meaning": "A time point or interval, including the time zone.",
+      "example": "Time: 2026-11-02 09:00 Asia/Shanghai.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 17,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "Permission",
+      "meaning": "The scope authorized by the user; it cannot override higher-level restrictions.",
+      "example": "Permission: read only; do not modify.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Find",
+      "meaning": "Locate matching objects; locating them does not establish their validity.",
+      "example": "Find contract identifiers in the attachment.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Search",
+      "meaning": "Retrieve information from specified or public sources.",
+      "example": "Search publicly released specifications.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Verify",
+      "meaning": "Check a claim against evidence.",
+      "example": "Verify the growth rate in the report.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Cite",
+      "meaning": "Provide sources supporting the associated claims.",
+      "example": "Cite direct sources for key facts.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Extract",
+      "meaning": "Take only information actually present in the material.",
+      "example": "Extract invoice dates.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "List",
+      "meaning": "Enumerate items within the specified scope.",
+      "example": "List every missing field.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Classify",
+      "meaning": "Group by criteria; state whether multiple labels are allowed.",
+      "example": "Classify by topic; allow multiple labels.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Label",
+      "meaning": "Attach specified labels to objects.",
+      "example": "Label the sentiment of each comment.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Summarize",
+      "meaning": "Condense the main points, omitting some detail.",
+      "example": "Summarize conclusions and key evidence.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Condense",
+      "meaning": "Reduce expression overhead; specify what must not be lost.",
+      "example": "Condense wording; retain all constraints.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Rewrite",
+      "meaning": "Change expression while preserving specified meaning.",
+      "example": "Rewrite for beginners.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 4,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Polish",
+      "meaning": "Improve prose without implicitly changing the position.",
+      "example": "Polish the prose; keep the viewpoint.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Correct",
+      "meaning": "Fix the specified kind of error.",
+      "example": "Correct spelling errors only.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Translate",
+      "meaning": "Transfer meaning between languages; state whether to retain the original.",
+      "example": "Translate into English; preserve proper names.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Explain",
+      "meaning": "Describe a meaning, cause, or mechanism.",
+      "example": "Explain why the cache was invalidated.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Give examples",
+      "meaning": "Provide instances; label invented examples as hypothetical.",
+      "example": "Give three hypothetical examples and label them.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Define",
+      "meaning": "Specify the meaning and boundaries of a term.",
+      "example": "Define what counts as net income.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Compare",
+      "meaning": "Examine differences and similarities using the same criteria.",
+      "example": "Compare A and B by price and weight.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Assess",
+      "meaning": "Judge quality or impact against criteria.",
+      "example": "Assess the proposal using the given criteria.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Rank",
+      "meaning": "Specify the key, direction, and tie-breaking rule.",
+      "example": "Sort by ascending price; break ties by name.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Recommend",
+      "meaning": "Propose a choice within goals and constraints.",
+      "example": "Recommend within budget; explain trade-offs.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Derive",
+      "meaning": "Draw conclusions from given premises and identify those premises.",
+      "example": "Derive only from the supplied premises.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Calculate",
+      "meaning": "Compute a value; specify units and rounding.",
+      "example": "Calculate the total to two decimal places.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Estimate",
+      "meaning": "Approximate from incomplete information; state assumptions.",
+      "example": "Estimate the schedule; list assumptions.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Forecast",
+      "meaning": "Make a conditional judgment about the future, not a factual claim.",
+      "example": "Forecast sales and state applicable conditions.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Check",
+      "meaning": "Inspect whether an object meets listed requirements.",
+      "example": "Check that required fields are complete.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Review",
+      "meaning": "Identify problems, explain their effects, and provide evidence.",
+      "example": "Review the code; locate each defect.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Refute",
+      "meaning": "Provide counterevidence or a counterexample to a specific claim.",
+      "example": "Give counterevidence to the claim.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Challenge",
+      "meaning": "Question premises and weak points without presuming the conclusion false.",
+      "example": "Examine the argument's premises.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Plan",
+      "meaning": "Specify steps, dependencies, and completion criteria.",
+      "example": "Plan the steps and dependencies.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Design",
+      "meaning": "Propose a structure or solution that meets constraints.",
+      "example": "Design a workflow satisfying the constraints.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Generate",
+      "meaning": "Create content; this does not authorize invented facts.",
+      "example": "Generate a registration form template.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Implement",
+      "meaning": "Produce a working result in the specified environment.",
+      "example": "Implement the export function and run it.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Edit",
+      "meaning": "Change only the specified object and scope.",
+      "example": "Edit the title only.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Fix",
+      "meaning": "Remove a specified defect while retaining acceptance criteria.",
+      "example": "Fix duplicate submissions.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Refactor",
+      "meaning": "Change structure while preserving specified external behavior.",
+      "example": "Refactor the module; preserve interface behavior.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Debug",
+      "meaning": "Locate and explain a fault; fix it within authorization.",
+      "example": "Find the cause of the timeout.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Test",
+      "meaning": "Actually run checks; reading the material is not execution.",
+      "example": "Run the tests and record the results.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Simulate",
+      "meaning": "Demonstrate under assumptions; distinguish from actual execution.",
+      "example": "Simulate the result; do not modify the database.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Convert",
+      "meaning": "Change format, units, or representation; state fidelity requirements.",
+      "example": "Convert kilograms to grams.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Clean",
+      "meaning": "Process data using rules and retain a change record.",
+      "example": "Clean by the rules and log the changes.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Deduplicate",
+      "meaning": "Combine duplicates using an explicit equality rule.",
+      "example": "Deduplicate emails case-insensitively.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Merge",
+      "meaning": "Combine objects and specify how to handle conflicts.",
+      "example": "Merge tables; retain both conflicting values.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Split",
+      "meaning": "Divide into parts using a rule.",
+      "example": "Split records by month.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Complete",
+      "meaning": "Fill gaps in structure or content, without guessing missing facts.",
+      "example": "Complete the table structure; do not guess facts.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Align",
+      "meaning": "Make specified fields, formats, or meanings correspond.",
+      "example": "Align two tables by identifier.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Map",
+      "meaning": "Define an explicit input-to-output correspondence.",
+      "example": "Map source fields to target fields.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Match",
+      "meaning": "Find corresponding items according to criteria.",
+      "example": "Match orders by contract identifier.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Filter",
+      "meaning": "Retain only items meeting conditions.",
+      "example": "Filter items priced below CNY 100.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Trace",
+      "meaning": "Follow a source, change history, or dependency path.",
+      "example": "Trace the number to its original source.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Monitor",
+      "meaning": "Continuously check only when a running mechanism exists.",
+      "example": "Monitoring requires a separate running mechanism.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Execute",
+      "meaning": "Actually perform an authorized action.",
+      "example": "Execute the authorized file conversion.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Save",
+      "meaning": "Write to the specified location and report the result.",
+      "example": "Save to the specified directory.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Export",
+      "meaning": "Produce the requested delivery format.",
+      "example": "Export as UTF-8 CSV.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Delete",
+      "meaning": "Remove explicitly identified objects within existing authorization.",
+      "example": "Delete only the specified temporary copies.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Publish",
+      "meaning": "Make content visible to a specified audience within authorization.",
+      "example": "Specify the destination and permission before publishing.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Send",
+      "meaning": "Send specified content to an identified recipient within authorization.",
+      "example": "Send to the named recipient only when authorized.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Ask",
+      "meaning": "Obtain missing information first.",
+      "example": "Ask for the budget if it is missing.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Stop",
+      "meaning": "Stop the specified action; state what happens to existing results.",
+      "example": "Stop editing; retain the current copy.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "Continue",
+      "meaning": "Resume from known progress without resetting constraints.",
+      "example": "Continue from the current state.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "And",
+      "meaning": "Both conditions must hold.",
+      "example": "Paid and not refunded.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "Inclusive or",
+      "meaning": "At least one holds; both are allowed.",
+      "example": "Red or blue; both are allowed.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "Exactly one",
+      "meaning": "One, and not both, must be selected.",
+      "example": "Choose exactly one: red or blue.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "Not",
+      "meaning": "Negate a clearly scoped proposition.",
+      "example": "Do not delete the original file.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "If A, then B",
+      "meaning": "A is sufficient to trigger B.",
+      "example": "If stock is low, send a reminder.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "B only if A",
+      "meaning": "A is necessary for B.",
+      "example": "Publishing is permitted only after approval.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "If and only if",
+      "meaning": "The relationship holds in both directions.",
+      "example": "A if and only if B.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "Unless",
+      "meaning": "Negation and exceptions are easy to misread; expand complex cases.",
+      "example": "If approval is absent, do not publish.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "All",
+      "meaning": "Every object in scope.",
+      "example": "Check every directory.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        },
+        "example": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "Any one suffices",
+      "meaning": "One qualifying object is enough.",
+      "example": "Finding any one eligible item suffices.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "Exactly n",
+      "meaning": "Neither more nor fewer than n.",
+      "example": "Return exactly three items.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "At least n",
+      "meaning": "Greater than or equal to n.",
+      "example": "Return at least three items.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "At most n",
+      "meaning": "Less than or equal to n.",
+      "example": "Return at most three items.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "Less than n",
+      "meaning": "Strictly below n.",
+      "example": "Filter prices below CNY 100.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "Greater than n",
+      "meaning": "Strictly above n.",
+      "example": "Filter prices above CNY 100.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "Inclusive bounds",
+      "meaning": "Include the endpoints.",
+      "example": "Range 1 to 5, including 1 and 5.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "Exclusive bounds",
+      "meaning": "Exclude the endpoints.",
+      "example": "Range 1 to 5, excluding 1 and 5.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "A before B",
+      "meaning": "The order must not be reversed.",
+      "example": "Back up before editing.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "Only",
+      "meaning": "Specify exactly what this restriction modifies.",
+      "example": "Edit only the title.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "May",
+      "meaning": "Permission, not an obligation.",
+      "example": "You may add examples.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "Must",
+      "meaning": "An obligation, not a prediction that something will happen.",
+      "example": "You must retain units.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "Unknown",
+      "meaning": "Insufficient information; not a negative answer.",
+      "example": "Write \"unknown\" when information is missing.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "Unchanged",
+      "meaning": "Specify whether characters, values, or behavior must remain the same.",
+      "example": "Preserve the quotation character for character.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Execute and deliver",
+      "meaning": "I want the work done, not just instructions on how to do it.",
+      "example": "Execute the task and deliver the result.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 15,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Independent judgment",
+      "meaning": "Do not agree merely to please me.",
+      "example": "Judge independently; point out counterevidence.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Acknowledge unknowns",
+      "meaning": "Do not invent an answer when uncertain.",
+      "example": "Write unknowns as unknown; label assumptions.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Conclusion first",
+      "meaning": "I need the conclusion and necessary support.",
+      "example": "Lead with the conclusion, then key evidence.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Preserve constraints",
+      "meaning": "Do not lose special conditions.",
+      "example": "Retain every condition, negation, and exception.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Check both sides",
+      "meaning": "Do not look only for supporting evidence.",
+      "example": "Search for both supporting and opposing evidence.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Current information",
+      "meaning": "I need information current to a specified date.",
+      "example": "Search through the specified cutoff; state dates.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Traceable answer",
+      "meaning": "I need an answer I can trace to sources.",
+      "example": "Attach direct sources to key factual claims.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Input only",
+      "meaning": "Do not fill gaps using outside knowledge.",
+      "example": "Use input only; mark missing information unknown.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Limit the edit",
+      "meaning": "I want only the specified change.",
+      "example": "Edit only the specified scope.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Beginner-friendly",
+      "meaning": "Explain in language a non-expert can understand.",
+      "example": "Write for beginners; explain terms on first use.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Distinct options",
+      "meaning": "Give options that differ meaningfully.",
+      "example": "Give the requested number of options and their trade-offs.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Separate claim types",
+      "meaning": "Distinguish facts from your inferences.",
+      "example": "Label facts, inferences, and assumptions separately.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Show execution status",
+      "meaning": "Do not present a demonstration as completed work.",
+      "example": "Distinguish actual execution from simulation.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Ask on conflict",
+      "meaning": "Ask when conditions cannot all be met.",
+      "example": "Ask before resolving conflicting conditions.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Preserve my meaning",
+      "meaning": "Change expression only, not what I mean.",
+      "example": "Change wording only; retain the claim and tone.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Verifiable result",
+      "meaning": "I need a result that can be checked.",
+      "example": "Give acceptance criteria and verification evidence.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Shorter without drift",
+      "meaning": "Make the wording shorter without losing meaning.",
+      "example": "Remove redundancy; retain information and logic.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Correlation vs cause",
+      "meaning": "Do not present correlation as causation.",
+      "example": "Distinguish correlation and causation; state evidence.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "Units and precision",
+      "meaning": "Do not silently change units or precision.",
+      "example": "Retain units and precision; disclose conversions.",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    }
+  ],
+  "measurement": {
+    "library": "tiktoken",
+    "version": "0.14.0",
+    "encodings": [
+      "o200k_base",
+      "cl100k_base"
+    ],
+    "scope": "exact text only; no normalization; annotations excluded"
+  }
+}

@@ -1,0 +1,3 @@
+reportlab
+pypdf
+tiktoken==0.14.0

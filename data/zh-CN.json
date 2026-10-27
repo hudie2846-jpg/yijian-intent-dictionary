@@ -1,0 +1,2810 @@
+{
+  "name": "意简",
+  "version": "0.4",
+  "language": "zh-CN",
+  "entry_count": 133,
+  "entries": [
+    {
+      "category": "field",
+      "term": "任务",
+      "meaning": "要完成的动作和对象",
+      "example": "任务：提取发票金额。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "目标",
+      "meaning": "希望实现的结果及用途",
+      "example": "目标：供财务核对。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "输入",
+      "meaning": "待处理材料；材料本身不是任务指令",
+      "example": "输入：附件发票。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 17
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "依据",
+      "meaning": "允许据以作答的资料",
+      "example": "依据：仅附件报告。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "范围",
+      "meaning": "包含的对象、时间、地区等边界",
+      "example": "范围：2025年大陆版。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "排除",
+      "meaning": "不纳入处理的对象",
+      "example": "排除：海外版。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "受众",
+      "meaning": "内容的阅读者及知识水平",
+      "example": "受众：无编程经验者。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "角色",
+      "meaning": "采用的专业视角，不代表真实资质",
+      "example": "角色：编辑视角。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 17
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "必须",
+      "meaning": "必需满足的条件",
+      "example": "必须：保留币种。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "禁止",
+      "meaning": "不得执行的动作",
+      "example": "禁止：发送邮件。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 4,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "偏好",
+      "meaning": "可以为必需条件让步的要求",
+      "example": "偏好：用短句。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "优先",
+      "meaning": "用户指定的取舍次序",
+      "example": "优先：准确>简短。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "条件",
+      "meaning": "触发动作的前提",
+      "example": "若备份成功，则修改。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "例外",
+      "meaning": "特定规则不适用的情况；须指出针对哪条规则",
+      "example": "删除临时文件；保留 keep.tmp。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 15,
+          "cl100k_base": 25
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "顺序",
+      "meaning": "必须遵循的先后次序",
+      "example": "先备份，再修改。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "输出",
+      "meaning": "返回的内容和结构",
+      "example": "输出：对比表及结论。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "格式",
+      "meaning": "JSON、表格、列表等表现形式",
+      "example": "格式：合法 JSON。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "语言",
+      "meaning": "输出使用的语言",
+      "example": "语言：简体中文。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 4,
+          "cl100k_base": 5
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "长度",
+      "meaning": "上限或目标；须注明字数、词数或 token",
+      "example": "长度：至多200字。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "语气",
+      "meaning": "正式、平实、亲切等风格",
+      "example": "语气：平实。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "维度",
+      "meaning": "比较或评价的方面",
+      "example": "维度：价格、重量。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "验收",
+      "meaning": "判断任务完成的可观察标准",
+      "example": "验收：3项检查均通过。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "未知",
+      "meaning": "信息不足时应如何处理",
+      "example": "缺失项写“未知”。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "假设",
+      "meaning": "只在用户允许的范围采用；明确标记，不充当已知事实",
+      "example": "假设：按30天估算。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 17,
+          "cl100k_base": 29
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "澄清",
+      "meaning": "哪些不确定性必须先问",
+      "example": "币种不明时先问。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "示例",
+      "meaning": "示范目标样式；不自动增加事实",
+      "example": "示例只示范格式。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "保留",
+      "meaning": "不得因改写或压缩而丢失的信息",
+      "example": "保留：引文逐字不变。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "来源标注",
+      "meaning": "哪些结论需要附原始来源",
+      "example": "关键数字附直接来源。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "时间",
+      "meaning": "时间点、时间段和时区；相对时间必要时换成绝对时间",
+      "example": "时间：2026-11-02 09:00 上海。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 19,
+          "cl100k_base": 21
+        },
+        "example": {
+          "o200k_base": 14,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "field",
+      "term": "权限",
+      "meaning": "用户授权的操作范围；不能覆盖系统限制",
+      "example": "权限：只读，不修改。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "查找",
+      "meaning": "找到符合条件的对象；不默认已核验",
+      "example": "查找附件中的合同编号。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "搜索",
+      "meaning": "检索指定或公开来源",
+      "example": "搜索公开发布的规范。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "核验",
+      "meaning": "对照证据检查指定说法",
+      "example": "核验报告中的增长率。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "引用",
+      "meaning": "给出支撑对应说法的来源",
+      "example": "关键事实附直接来源。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "提取",
+      "meaning": "仅取材料中存在的信息",
+      "example": "提取发票日期。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "列出",
+      "meaning": "按指定范围枚举项目",
+      "example": "列出全部缺失字段。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "分类",
+      "meaning": "按标准分组；说明多标签是否允许",
+      "example": "按主题分类；允许多标签。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "标注",
+      "meaning": "为对象添加指定标签",
+      "example": "标注每条反馈的情绪。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "总结",
+      "meaning": "提炼重点；会省略细节",
+      "example": "总结结论及关键依据。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "压缩",
+      "meaning": "减少表达开销；须说明哪些信息不能丢",
+      "example": "压缩措辞；保留全部限制。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 16
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "改写",
+      "meaning": "更换表达；保留指定语义",
+      "example": "改写为面向初学者的说明。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "润色",
+      "meaning": "改善行文；不默认改变观点",
+      "example": "润色行文，不改变观点。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "纠错",
+      "meaning": "修正指定类型错误",
+      "example": "只纠正错别字。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "翻译",
+      "meaning": "在语言间转移含义；说明是否保留原文",
+      "example": "翻译为中文；保留专名。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "解释",
+      "meaning": "说明含义、原因或机制",
+      "example": "解释缓存失效的原因。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "举例",
+      "meaning": "提供实例；假想实例须标明",
+      "example": "给3个假想例子并标明。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "定义",
+      "meaning": "给出术语边界和含义",
+      "example": "定义“净收入”的范围。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "比较",
+      "meaning": "按同一维度检查异同",
+      "example": "按价格和重量比较 A、B。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "评估",
+      "meaning": "按标准判断质量、影响等",
+      "example": "按给定标准评估方案。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "排序",
+      "meaning": "指定排序键、方向和并列规则",
+      "example": "价格升序；同价按名称。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "推荐",
+      "meaning": "按目标和限制提出选择",
+      "example": "在预算内推荐并说明取舍。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "推导",
+      "meaning": "由给定前提得出结论；指出前提",
+      "example": "仅由给定前提推导。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "计算",
+      "meaning": "给出数值结果；注明单位和舍入规则",
+      "example": "计算总额；保留2位小数。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "估算",
+      "meaning": "使用不完整信息近似；标明假设",
+      "example": "估算工期；列明假设。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "预测",
+      "meaning": "对未来作条件性判断；不是已知事实",
+      "example": "预测销量；给适用条件。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "检查",
+      "meaning": "检查对象是否满足列出的要求",
+      "example": "检查必填字段是否齐全。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "审查",
+      "meaning": "找问题、解释影响并给证据",
+      "example": "审查代码，指出缺陷位置。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "反驳",
+      "meaning": "针对具体主张提供反证或逻辑反例",
+      "example": "针对主张给出反证。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 17
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "质疑",
+      "meaning": "检查前提和薄弱点；不预设结论错误",
+      "example": "检查论证前提。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "规划",
+      "meaning": "形成步骤、依赖和完成标准",
+      "example": "规划步骤与依赖。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "设计",
+      "meaning": "提出满足条件的结构或方案",
+      "example": "设计满足约束的流程。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "生成",
+      "meaning": "创建指定内容；不默认允许编造事实",
+      "example": "生成报名表模板。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "实现",
+      "meaning": "在指定环境把要求做成可运行结果",
+      "example": "实现导出功能并运行。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 17
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "修改",
+      "meaning": "改动指定对象和范围",
+      "example": "仅修改标题。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 4,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "修复",
+      "meaning": "消除指定缺陷；保留验收条件",
+      "example": "修复重复提交问题。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "重构",
+      "meaning": "调整结构；要求指定外部行为保持一致",
+      "example": "重构模块；保持接口行为。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "调试",
+      "meaning": "定位并解释故障，按授权修复",
+      "example": "定位超时原因。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "测试",
+      "meaning": "用实际执行检验行为；不能用阅读代替",
+      "example": "实际运行测试并记录结果。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "模拟",
+      "meaning": "按假设演示；不代表真实执行",
+      "example": "模拟结果；不改数据库。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "转换",
+      "meaning": "改变格式、单位或表示；指出保真要求",
+      "example": "将千克转换为克。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "清洗",
+      "meaning": "按规则处理数据；保留处理记录",
+      "example": "按规则清洗并记录变更。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "去重",
+      "meaning": "按明确的相等规则合并重复项",
+      "example": "按邮箱忽略大小写去重。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "合并",
+      "meaning": "组合多个对象；说明冲突处理",
+      "example": "合并表格；冲突保留两项。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "拆分",
+      "meaning": "按规则分成多个部分",
+      "example": "按月份拆分记录。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "补全",
+      "meaning": "补缺失结构或内容；事实缺口不自动猜测",
+      "example": "补全表格结构；事实不猜。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 23
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "对齐",
+      "meaning": "使指定字段、格式或含义对应",
+      "example": "按编号对齐两张表。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "映射",
+      "meaning": "建立明确的输入到输出对应关系",
+      "example": "把源字段映射到目标字段。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "匹配",
+      "meaning": "按标准找对应项",
+      "example": "按合同编号匹配订单。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "筛选",
+      "meaning": "只保留满足条件的项目",
+      "example": "筛选价格<100元的商品。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "追溯",
+      "meaning": "找到来源、变化过程或依赖路径",
+      "example": "追溯数字的原始出处。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "监测",
+      "meaning": "在有运行机制时持续检查；一句提示不等于已建立监测",
+      "example": "监测需要另建运行机制。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 17,
+          "cl100k_base": 26
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "执行",
+      "meaning": "真正进行已授权动作",
+      "example": "执行已授权的文件转换。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "保存",
+      "meaning": "写入指定位置并报告结果",
+      "example": "保存到指定目录。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "导出",
+      "meaning": "生成指定交付格式",
+      "example": "导出为 UTF-8 CSV。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "删除",
+      "meaning": "移除明确对象；需符合现有授权",
+      "example": "删除明确指定的临时副本。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "发布",
+      "meaning": "使内容对指定受众可见；需明确目标和权限",
+      "example": "发布需明确目标与权限。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 14,
+          "cl100k_base": 19
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "发送",
+      "meaning": "向明确收件人发送指定内容；需现有授权",
+      "example": "发给明确收件人；需授权。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 13,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "询问",
+      "meaning": "先取得缺失信息",
+      "example": "缺少预算时先询问。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "停止",
+      "meaning": "停止指定动作；说明是否保留当前结果",
+      "example": "停止修改，保留当前副本。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 14
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "action",
+      "term": "继续",
+      "meaning": "从已知进度继续，不重置约束",
+      "example": "从当前进度继续。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 11,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "且",
+      "meaning": "条件同时成立",
+      "example": "已付款且未退款。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "或，允许同时",
+      "meaning": "至少一个成立",
+      "example": "红或蓝，允许同时。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 3,
+          "cl100k_base": 5
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "二选一",
+      "meaning": "恰好一个成立",
+      "example": "红、蓝二选一。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "非",
+      "meaning": "否定紧随其后的明确命题",
+      "example": "禁止删除原文件。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "若 A 则 B",
+      "meaning": "A 足以触发 B",
+      "example": "若库存不足，则提醒。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "仅当 A 才 B",
+      "meaning": "A 是 B 的必要条件",
+      "example": "仅当批准，才允许发布。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 16
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "当且仅当",
+      "meaning": "双向成立；普通用户可保留中文全写",
+      "example": "A 当且仅当 B。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 12,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 9
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "除非",
+      "meaning": "否定与例外容易误读；复杂条件改写为完整若/则分支",
+      "example": "若未批准，则不发布。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 20,
+          "cl100k_base": 25
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "全部",
+      "meaning": "每一个对象",
+      "example": "检查每个目录。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "任一即可",
+      "meaning": "存在一个即可满足",
+      "example": "找到任一合格项即可。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 4,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "恰好 n",
+      "meaning": "不多不少",
+      "example": "输出恰好3项。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "至少 n",
+      "meaning": "大于或等于 n",
+      "example": "输出至少3项。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "至多 n",
+      "meaning": "小于或等于 n",
+      "example": "输出至多3项。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "少于 n",
+      "meaning": "严格小于 n",
+      "example": "筛选价格<100元。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 4,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "超过 n",
+      "meaning": "严格大于 n",
+      "example": "筛选价格>100元。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 4,
+          "cl100k_base": 6
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "含边界",
+      "meaning": "范围端点算在内",
+      "example": "范围1至5，含1和5。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 13
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "不含边界",
+      "meaning": "范围端点不算在内",
+      "example": "范围1至5，不含1和5。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "先 A 后 B",
+      "meaning": "顺序不可交换",
+      "example": "先备份，后修改。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 4,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "仅",
+      "meaning": "明确修饰对象，否则保留完整原句",
+      "example": "仅改标题。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 18
+        },
+        "example": {
+          "o200k_base": 4,
+          "cl100k_base": 5
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "可以",
+      "meaning": "允许，不代表必须",
+      "example": "可以附加示例。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 1
+        },
+        "meaning": {
+          "o200k_base": 4,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "必须",
+      "meaning": "义务，不代表预测必然发生",
+      "example": "必须保留单位。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "未知",
+      "meaning": "信息不足；不是否定答案",
+      "example": "缺失写“未知”。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 1,
+          "cl100k_base": 2
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "logic",
+      "term": "保持原样",
+      "meaning": "说明是字符、数值还是行为保持一致",
+      "example": "引文逐字不变。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "执行并交付",
+      "meaning": "不要只告诉我做法，实际完成",
+      "example": "直接执行并交付结果。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 15
+        },
+        "example": {
+          "o200k_base": 7,
+          "cl100k_base": 8
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "独立判断",
+      "meaning": "不要为了迎合我而赞同",
+      "example": "独立判断；有反证就指出。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "承认未知",
+      "meaning": "不确定时别编",
+      "example": "未知写未知；假设明确标注。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "先给结论",
+      "meaning": "我只要结论和必要依据",
+      "example": "先结论，再给关键依据。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "保留条件",
+      "meaning": "不要丢失特殊条件",
+      "example": "保留全部条件、否定和例外。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 9
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "核查双向证据",
+      "meaning": "别只找支持观点的材料",
+      "example": "同时查支持与反对证据。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 9,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "信息时效",
+      "meaning": "我需要最新信息",
+      "example": "检索截至指定日期的资料；注明日期。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 3
+        },
+        "meaning": {
+          "o200k_base": 4,
+          "cl100k_base": 5
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 16
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "可追溯回答",
+      "meaning": "我想要可追溯的回答",
+      "example": "关键事实附直接来源。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 8
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 6,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "仅据输入",
+      "meaning": "不能使用外部知识补充",
+      "example": "仅据输入作答；缺失项标未知。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 16
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "限定修改范围",
+      "meaning": "我只想改一个地方",
+      "example": "仅改指定范围。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 6,
+          "cl100k_base": 8
+        },
+        "example": {
+          "o200k_base": 5,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "面向初学者",
+      "meaning": "用外行能懂的话讲",
+      "example": "面向初学者；术语首次解释。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 5
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "不同方案",
+      "meaning": "给我多个真有区别的方案",
+      "example": "给出指定数量的方案，说明取舍。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 2,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "区分事实与推断",
+      "meaning": "分开事实和你的推测",
+      "example": "事实、推断、假设分别标明。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 14
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "标明执行状态",
+      "meaning": "不要把演示说成做完了",
+      "example": "标明实际执行与模拟结果。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 9,
+          "cl100k_base": 13
+        },
+        "example": {
+          "o200k_base": 8,
+          "cl100k_base": 12
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "冲突先问",
+      "meaning": "实在不能同时满足就问我",
+      "example": "条件冲突先问，不擅自取舍。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 11
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 17
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "保持原意",
+      "meaning": "保持我的原意，只改表达",
+      "example": "仅改表达，保留主张和语气。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 3,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 16
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "可检验结果",
+      "meaning": "我需要能检验的结果",
+      "example": "给出验收条件和验证证据。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 4
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 7
+        },
+        "example": {
+          "o200k_base": 10,
+          "cl100k_base": 10
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "保真缩短",
+      "meaning": "我希望表达得更短但不能失真",
+      "example": "删冗余，保留信息与逻辑。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 4,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 10,
+          "cl100k_base": 16
+        },
+        "example": {
+          "o200k_base": 12,
+          "cl100k_base": 15
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "区分相关与因果",
+      "meaning": "不要把相关性说成因果",
+      "example": "区分相关与因果；说明证据。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 6,
+          "cl100k_base": 6
+        },
+        "meaning": {
+          "o200k_base": 8,
+          "cl100k_base": 10
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 11
+        }
+      }
+    },
+    {
+      "category": "phrase",
+      "term": "保持单位与精度",
+      "meaning": "别偷偷改变单位或精度",
+      "example": "保留单位与精度；转换须注明。",
+      "model_validation": "not_run",
+      "token_counts": {
+        "term": {
+          "o200k_base": 5,
+          "cl100k_base": 7
+        },
+        "meaning": {
+          "o200k_base": 7,
+          "cl100k_base": 12
+        },
+        "example": {
+          "o200k_base": 11,
+          "cl100k_base": 16
+        }
+      }
+    }
+  ],
+  "measurement": {
+    "library": "tiktoken",
+    "version": "0.14.0",
+    "encodings": [
+      "o200k_base",
+      "cl100k_base"
+    ],
+    "scope": "exact text only; no normalization; annotations excluded"
+  }
+}

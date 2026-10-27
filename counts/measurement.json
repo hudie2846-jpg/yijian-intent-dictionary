@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-27",
+  "tiktoken_version": "0.14.0",
+  "encoding_details": {
+    "o200k_base": {
+      "vocabulary_size": 200019,
+      "mergeable_rank_count": 199998,
+      "pattern_sha256": "2d1b8dc11e89af71459b36004f698ab3693f59fd84f63e8ec2b49564ab857420"
+    },
+    "cl100k_base": {
+      "vocabulary_size": 100277,
+      "mergeable_rank_count": 100256,
+      "pattern_sha256": "f021c3d976978e62ee64cdad150cc3405c2e3d6e3b40407850bb9e8d9eb65899"
+    }
+  },
+  "unicode_normalization": false,
+  "disallowed_special": [],
+  "count_scope": "exact original Unicode string; annotations excluded",
+  "records": 2047,
+  "cross_model_execution_runs": 0,
+  "native_independent_review": false
+}
